@@ -1,0 +1,9 @@
+cat /etc/os-release
+printf 'Shell: %s\n' "$0"
+uname -a
+busybox
+busybox --list
+command -v apk
+command -v curl
+command -v git
+df -h
